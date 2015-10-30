@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  UniqueArchitecture
+
+  Created by summer on 15/6/17.
+  Copyright (c) 2015年 summer. All rights reserved.
+*/
+//UANetWork
+"UANetWorkError" = "亲,开小差了";
+
+"demo" = "这是一个例子";

@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  UniqueArchitecture
+
+  Created by summer on 15/6/17.
+  Copyright (c) 2015年 summer. All rights reserved.
+*/
+
+//UANetWork
+
+"UANetWorkError" = "serive lost...";
+"demo" = "this is a demo";
