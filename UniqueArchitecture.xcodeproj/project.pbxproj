@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		375658631BE0C94A00800975 /* UAPerformanceDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 375658621BE0C94A00800975 /* UAPerformanceDao.m */; settings = {ASSET_TAGS = (); }; };
+		375658631BE0C94A00800975 /* UAPerformanceDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 375658621BE0C94A00800975 /* UAPerformanceDao.m */; };
 		3785813F1B86FED700571A6F /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3785813E1B86FED700571A6F /* PersonViewController.m */; };
 		378581421B86FEEE00571A6F /* PersonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378581411B86FEEE00571A6F /* PersonTableViewController.m */; };
+		37F4C6BA1C16C3C70039B7BE /* FloatWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F4C6B91C16C3C70039B7BE /* FloatWebView.m */; };
 		891EBA661B2EC0640021B76C /* UANavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891EBA5F1B2EC0640021B76C /* UANavigationViewController.m */; };
 		891EBA671B2EC0640021B76C /* UANewWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891EBA611B2EC0640021B76C /* UANewWebViewController.m */; };
 		891EBA681B2EC0640021B76C /* UATabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 891EBA631B2EC0640021B76C /* UATabBar.m */; };
@@ -105,6 +106,8 @@
 		3785813E1B86FED700571A6F /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
 		378581401B86FEEE00571A6F /* PersonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonTableViewController.h; sourceTree = "<group>"; };
 		378581411B86FEEE00571A6F /* PersonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTableViewController.m; sourceTree = "<group>"; };
+		37F4C6B81C16C3C70039B7BE /* FloatWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatWebView.h; sourceTree = "<group>"; };
+		37F4C6B91C16C3C70039B7BE /* FloatWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatWebView.m; sourceTree = "<group>"; };
 		73E91AC0C588F5C68BB279D2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		875F2C0854B807A8A016EC4A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		891EBA5E1B2EC0640021B76C /* UANavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UANavigationViewController.h; path = UniqueArchitecture/UAKit/UABase/UANavigationViewController.h; sourceTree = SOURCE_ROOT; };
@@ -322,6 +325,8 @@
 				B05B2C781B0A3C8300B5F4CA /* DetailViewController.m */,
 				B009AA1E1B444DE8004B460D /* ViewController.h */,
 				B009AA1F1B444DE8004B460D /* ViewController.m */,
+				37F4C6B81C16C3C70039B7BE /* FloatWebView.h */,
+				37F4C6B91C16C3C70039B7BE /* FloatWebView.m */,
 			);
 			name = HomePage;
 			sourceTree = "<group>";
@@ -824,6 +829,7 @@
 				891EBA691B2EC0640021B76C /* UATabBarButton.m in Sources */,
 				89AE2F8F1B303069009C66FB /* UARefreshHeaderView.m in Sources */,
 				8956FBB31B03378B00D97CE1 /* PathHelper.m in Sources */,
+				37F4C6BA1C16C3C70039B7BE /* FloatWebView.m in Sources */,
 				8971232C1B021BD9009FA77D /* UABaseDao.m in Sources */,
 				89AE2F811B303037009C66FB /* UActivityView.m in Sources */,
 				897A96071AFC85E800BEEEFB /* AppDelegate.m in Sources */,

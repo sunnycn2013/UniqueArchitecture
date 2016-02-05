@@ -26,7 +26,9 @@
     
      _tabBarController= [[UATabBarController alloc] init];
     self.window.rootViewController = _tabBarController;
+    
     [self.window makeKeyAndVisible];
+    
     
     [self initShareSDK];
     return YES;

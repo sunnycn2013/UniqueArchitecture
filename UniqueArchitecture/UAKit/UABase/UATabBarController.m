@@ -25,12 +25,12 @@
 - (void)viewDidLoad{
     [super viewDidLoad];
     
-//    HomePageViewController *homeVC = [[HomePageViewController alloc] init];
-//    UANavigationViewController *navi = [[UANavigationViewController alloc] initWithRootViewController:homeVC];
-//    navi.title = @"消息中心";
-    DetailViewController *homeVC = [[DetailViewController alloc] init];
+    HomePageViewController *homeVC = [[HomePageViewController alloc] init];
     UANavigationViewController *navi = [[UANavigationViewController alloc] initWithRootViewController:homeVC];
-    navi.title = @"消息";
+    navi.title = @"消息中心";
+//    DetailViewController *homeVC = [[DetailViewController alloc] init];
+//    UANavigationViewController *navi = [[UANavigationViewController alloc] initWithRootViewController:homeVC];
+//    navi.title = @"消息";
     
     FriendViewController *homeVC1 = [[FriendViewController alloc] init];
     UANavigationViewController *navi1 = [[UANavigationViewController alloc] initWithRootViewController:homeVC1];

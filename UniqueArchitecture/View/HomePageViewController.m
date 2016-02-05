@@ -15,6 +15,7 @@
 #import "UAUtil.h"
 #import "UActivityView.h"
 #import "UAInternationalControl.h"
+#import "FloatWebView.h"
 
 #define URL_DB @"http://www.weather.com.cn/adat/sk/101010100.html"
 
@@ -43,8 +44,27 @@
     
 //    self.hidenHeadRefreshView = NO;
 //    self.hidenFooterRefreshView = YES;
+    
+    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://qt.gtimg.cn/q=s_sh000001,s_sz399001,s_sz399006"]];
+    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+    [operation start];
+    
+    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject){
 
-    HomeViewCell *cell = nil;
+    
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error){
+        
+        NSLog(@"%@",error);
+    }];
+    
+    
+    FloatWebView *webView = [[FloatWebView alloc] initWithUrl:@"http://betah5.m.jd.com/active/demo/gift_rain/"];
+    webView.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+    webView.userInteractionEnabled = NO;
+    [self.view addSubview:webView];
+    
+    
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)viewWillAppear:(BOOL)animated{
